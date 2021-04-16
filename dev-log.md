@@ -2,7 +2,7 @@
 
 ## Book and Reading Session
 ### Sprint 1
-- [ ] generate models, migrations, controller and routes for book and reading_session
+- [x] generate models, migrations, controller and routes for book and reading_session
 - [ ] set up controller actions for book and reading_session
 - [ ] create seed data to test model associations
 - [ ] generate serializers for books and reading_sessions
