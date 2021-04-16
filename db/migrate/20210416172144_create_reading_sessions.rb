@@ -4,6 +4,7 @@ class CreateReadingSessions < ActiveRecord::Migration[6.0]
       t.string :title
       t.string :duration
       t.string :date
+      t.integer :book_id
 
       t.timestamps
     end

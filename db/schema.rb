@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 2021_04_16_172144) do
     t.string "title"
     t.string "duration"
     t.string "date"
+    t.integer "book_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
