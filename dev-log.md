@@ -10,7 +10,7 @@
 ### Sprint 2 (READ)
 - [x] set up redux store
 - [x] LOAD_BOOKS and LOAD_READING_SESSIONS on initial fetch request
-- [ ] build BookContainer, ReadingList, Book components
+- [x] build BookContainer, ReadingList, Book components
 - [ ] build ReadingSessionContainer, ReadingSessionList, ReadingSession Components
 - [ ] set up routes for '/', '/books/reading-list', '/books/bookshelf', '/books/1'
 - [ ] set up routes for '/books/1/reading-sessions', '/books/1/reading-sessions/1'
