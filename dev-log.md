@@ -3,9 +3,9 @@
 ## Book and Reading Session
 ### Sprint 1
 - [x] generate models, migrations, controller and routes for book and reading_session
-- [ ] set up controller actions for book and reading_session
+- [x] set up index controller actions for book and reading_session
 - [x] create seed data to test model associations
-- [ ] generate serializers for books and reading_sessions
+- [x] generate serializers for books and reading_sessions
 
 ### Sprint 2 (READ)
 - [ ] set up redux store
