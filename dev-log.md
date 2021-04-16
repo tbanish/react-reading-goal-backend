@@ -8,7 +8,7 @@
 - [x] generate serializers for books and reading_sessions
 
 ### Sprint 2 (READ)
-- [ ] set up redux store
+- [x] set up redux store
 - [ ] LOAD_BOOKS and LOAD_READING_SESSIONS on initial fetch request
 - [ ] build BookContainer, ReadingList, Book components
 - [ ] build ReadingSessionContainer, ReadingSessionList, ReadingSession Components
