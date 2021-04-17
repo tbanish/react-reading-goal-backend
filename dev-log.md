@@ -16,8 +16,8 @@
 - [x] set up routes for '/books/1/reading-sessions', '/books/1/reading-sessions/1'
 
 ### Sprint 3 (CREATE
-- [ ] build BookNewForm component
-- [ ] ADD_BOOK to database and redux store
+- [x] build BookNewForm component
+- [x] ADD_BOOK to database and redux store
 - [ ] build Timer component
 - [ ] build TodaysDate component
 - [ ] build ReadingSessionNewForm
