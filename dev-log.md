@@ -20,7 +20,7 @@
 - [x] ADD_BOOK to database and redux store
 - [x] build Timer component
 - [x] build TodaysDate component
-- [ ] build ReadingSessionNewForm
+- [x] build ReadingSessionNewForm
 - [ ] ADD_READING_SESSION to database and redux store
 - [ ] set up routes for '/books/new' and '/books/1/reading-sessions/new'
 
