@@ -18,7 +18,7 @@
 ### Sprint 3 (CREATE
 - [x] build BookNewForm component
 - [x] ADD_BOOK to database and redux store
-- [ ] build Timer component
+- [x] build Timer component
 - [ ] build TodaysDate component
 - [ ] build ReadingSessionNewForm
 - [ ] ADD_READING_SESSION to database and redux store
