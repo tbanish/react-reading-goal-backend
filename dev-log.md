@@ -22,7 +22,7 @@
 - [x] build TodaysDate component
 - [x] build ReadingSessionNewForm
 - [x] ADD_READING_SESSION to database and redux store
-- [ ] set up routes for '/books/new' and '/books/1/reading-sessions/new'
+- [x] set up routes for '/books/new' and '/books/1/reading-sessions/new'
 
 ### Sprint 4 (UPDATE)
 - [ ] build BookEditForm component
