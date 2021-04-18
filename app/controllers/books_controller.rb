@@ -14,6 +14,17 @@ class BooksController < ApplicationController
     end
   end
 
+  def update
+    book = Book.find_by(id: params[:id])
+    book.update(book_params)
+
+    if book.save
+      render json: BooksSerializer.new(book)
+    else
+      render json: {errors: book.errors.full_messages}
+    end
+  end
+
   private
 
   def book_params
