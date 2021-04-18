@@ -32,7 +32,7 @@
 - [x] set up routes for '/books/1/edit' and '/books/1/reading-sessions/1/edit'
 
 ### Sprint 5 (DESTROY
-- [ ] DELETE_BOOK in database and redux store with associated reading sessions
+- [x] DELETE_BOOK in database and redux store with associated reading sessions
 - [ ] DELETE_READING_SESSION in database and redux store
 
 ## Notes
