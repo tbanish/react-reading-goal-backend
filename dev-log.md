@@ -25,8 +25,8 @@
 - [x] set up routes for '/books/new' and '/books/1/reading-sessions/new'
 
 ### Sprint 4 (UPDATE)
-- [ ] build BookEditForm component
-- [ ] UPDATE_BOOK in database and redux store
+- [x] build BookEditForm component
+- [x] UPDATE_BOOK in database and redux store
 - [ ] build ReadingSessionEditForm
 - [ ] UPDATE_READING_SESSION in database and redux store
 - [ ] set up routes for '/books/1/edit' and '/books/1/reading-sessions/1/edit'
