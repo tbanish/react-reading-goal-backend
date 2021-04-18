@@ -25,6 +25,11 @@ class ReadingSessionsController < ApplicationController
       end
   end
 
+  def destroy
+    reading_session = ReadingSession.find_by(id: params[:id])
+    reading_session.destroy
+  end
+
   private
 
   def reading_session_params
