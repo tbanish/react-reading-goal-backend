@@ -46,7 +46,7 @@
 - [x] LOAD_NOTES on initial fetch request
 - [x] build Notelist and Note components
 - [x] Notelist should be rendered in Book component with links to individual Note components at '/books/1/notes/1'
-- [ ] Note Components should be rendered in associated ReadingSession Component
+- [x] Note Components should be rendered in associated ReadingSession Component
 
 ### Sprint 8 (CREATE, UPDATE, DESTROY)
 - [ ] update ReadingSessionNewForm to accept creation of notes
