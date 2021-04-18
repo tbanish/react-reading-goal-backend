@@ -38,9 +38,9 @@
 ## Notes
 ### Sprint 6
 - [x] generate models, migrations, controller and routes for note
-- [ ] set up controller actions for notes
-- [ ] create seed data to test model associations
-- [ ] generate serializer for notes
+- [x] set up controller index action for notes
+- [x] create seed data to test model associations
+- [x] generate serializer for notes
 
 ### Sprint 7 (READ)
 - [ ] LOAD_NOTES on initial fetch request
