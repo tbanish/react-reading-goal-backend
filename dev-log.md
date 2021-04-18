@@ -43,7 +43,7 @@
 - [x] generate serializer for notes
 
 ### Sprint 7 (READ)
-- [ ] LOAD_NOTES on initial fetch request
+- [x] LOAD_NOTES on initial fetch request
 - [ ] build Notelist and Note components
 - [ ] Notelist should be rendered in Book component with links to individual Note components at '/books/1/notes/1'
 - [ ] Note Components should be rendered in associated ReadingSession Component
