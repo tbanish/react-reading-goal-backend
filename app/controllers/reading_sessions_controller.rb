@@ -6,12 +6,23 @@ class ReadingSessionsController < ApplicationController
 
   def create
     reading_session = ReadingSession.new(reading_session_params)
-    
+
     if reading_session.save
       render json: ReadingSessionsSerializer.new(reading_session)
     else
       render json: {errors: reading_session.erros.full_messages}
     end
+  end
+
+  def update
+      reading_session = ReadingSession.find_by(id: params[:id])
+      reading_session.update(reading_session_params)
+
+      if reading_session.save
+        render json: ReadingSessionsSerializer.new(reading_session)
+      else
+        render json: {errors: reading_session.erros.full_messages}
+      end
   end
 
   private
