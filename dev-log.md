@@ -33,7 +33,7 @@
 
 ### Sprint 5 (DESTROY
 - [x] DELETE_BOOK in database and redux store with associated reading sessions
-- [ ] DELETE_READING_SESSION in database and redux store
+- [x] DELETE_READING_SESSION in database and redux store
 
 ## Notes
 ### Sprint 6
