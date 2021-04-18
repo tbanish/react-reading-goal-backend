@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :notes
   resources :books, only: [:index, :create, :update, :destroy] do
     resources :reading_sessions, only: [:index, :create, :update, :destroy]
   end

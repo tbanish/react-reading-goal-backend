@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_16_172144) do
+ActiveRecord::Schema.define(version: 2021_04_18_215907) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,6 +23,15 @@ ActiveRecord::Schema.define(version: 2021_04_16_172144) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "notes", force: :cascade do |t|
+    t.string "title"
+    t.string "content"
+    t.bigint "reading_session_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["reading_session_id"], name: "index_notes_on_reading_session_id"
+  end
+
   create_table "reading_sessions", force: :cascade do |t|
     t.string "title"
     t.string "duration"
@@ -32,4 +41,5 @@ ActiveRecord::Schema.define(version: 2021_04_16_172144) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "notes", "reading_sessions"
 end
