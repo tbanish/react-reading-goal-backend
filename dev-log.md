@@ -27,9 +27,9 @@
 ### Sprint 4 (UPDATE)
 - [x] build BookEditForm component
 - [x] UPDATE_BOOK in database and redux store
-- [ ] build ReadingSessionEditForm
-- [ ] UPDATE_READING_SESSION in database and redux store
-- [ ] set up routes for '/books/1/edit' and '/books/1/reading-sessions/1/edit'
+- [x] build ReadingSessionEditForm
+- [x] UPDATE_READING_SESSION in database and redux store
+- [x] set up routes for '/books/1/edit' and '/books/1/reading-sessions/1/edit'
 
 ### Sprint 5 (DESTROY
 - [ ] DELETE_BOOK in database and redux store with associated reading sessions
