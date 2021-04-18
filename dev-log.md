@@ -37,7 +37,7 @@
 
 ## Notes
 ### Sprint 6
-- [ ] generate models, migrations, controller and routes for note
+- [x] generate models, migrations, controller and routes for note
 - [ ] set up controller actions for notes
 - [ ] create seed data to test model associations
 - [ ] generate serializer for notes
