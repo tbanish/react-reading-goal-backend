@@ -26,7 +26,6 @@ ActiveRecord::Schema.define(version: 2021_04_19_232409) do
   create_table "goals", force: :cascade do |t|
     t.integer "total"
     t.integer "remaining"
-    t.integer "accomplished"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
