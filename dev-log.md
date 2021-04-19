@@ -54,7 +54,7 @@
 - [x] set up NoteEditForm Component
 - [x] set up route for '/books/1/notes/1/edit'
 - [x] UPDATE_NOTE in database and redux store
-- [ ] DELETE_NOTE in database and redux store
+- [x] DELETE_NOTE in database and redux store
 
 ## Goals
 ### Sprint 9
