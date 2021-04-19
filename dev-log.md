@@ -49,8 +49,8 @@
 - [x] Note Components should be rendered in associated ReadingSession Component
 
 ### Sprint 8 (CREATE, UPDATE, DESTROY)
-- [ ] update ReadingSessionNewForm to accept creation of notes
-- [ ] ADD_NOTES to database and redux store
+- [x] update ReadingSessionNewForm to accept creation of notes
+- [x] ADD_NOTES to database and redux store
 - [ ] set up NoteEditForm Component
 - [ ] set up route for '/books/1/notes/1/edit'
 - [ ] UPDATE_NOTE in database and redux store
