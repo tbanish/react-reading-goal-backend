@@ -59,9 +59,9 @@
 ## Goals
 ### Sprint 9
 - [x] generate migrations, models and controllers
-- [ ] set up controller actions for goal
+- [x] set up controller index action for goal
 - [x] create seed data to test model associations
-- [ ] generate serializers for goal
+- [x] generate serializer for goal
 
 ### Sprint 10 (READ, CREATE)
 - [ ] LOAD_GOAL on initial fetch request
