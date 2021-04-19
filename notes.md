@@ -48,14 +48,8 @@ A user should be able to:
 - belongs_to :reading_session
 - validations :title, :content, presence: true
 
-## BookGoal
-- total
-- remaining
-- accomplished
-- validations :total, presence: true
-
-## TimeGoal
-- total
-- remaining
-- accomplished
+# Goal
+- total => how many books a user wants to read in a year
+- accomplished => Book.finished.count
+- remaining => total - accomplished
 - validations :total, presence: true
