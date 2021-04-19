@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 2021_04_18_215907) do
 
   create_table "reading_sessions", force: :cascade do |t|
     t.string "title"
-    t.string "duration"
+    t.integer "duration"
     t.string "date"
     t.integer "book_id"
     t.datetime "created_at", precision: 6, null: false
