@@ -58,24 +58,21 @@
 
 ## Goals
 ### Sprint 9
-- [ ] generate BookGoal and TimeGoal migrations, models and controllers
-- [ ] set up controller actions for book_goal and time_goal
+- [ ] generate migrations, models and controllers
+- [ ] set up controller actions for goal
 - [ ] create seed data to test model associations
-- [ ] generate serializers for book_goal and time_goal
+- [ ] generate serializers for goal
 
 ### Sprint 10 (READ, CREATE)
-- [ ] LOAD_BOOK_GOAL and LOAD_TIME_GOAL on initial fetch request
-- [ ] build GoalContainer, BookGoal and TimeGoal components
+- [ ] LOAD_GOAL on initial fetch request
+- [ ] build GoalContainer, Goal component
 - [ ] GoalContainer component should be rendered on home page '/'
-- [ ] build BookGoalNewForm and TimeGoalNewForm
-- [ ] set up route to '/goals/new' to render new forms for both goals
-- [ ] ADD_BOOK_GOAL to database and redux store
-- [ ] ADD_TIME_GOAL to database and redux store
+- [ ] build GoalNewForm
+- [ ] set up route to '/goals/new' to render new form for goal
+- [ ] ADD_GOAL to database and redux store
 
 ### Sprint 11 (UPDATE, DESTROY)
-- [ ] build BookGoalEditForm and TimeGoalEditForm
-- [ ] UPDATE_BOOK_GOAL in database and redux store
-- [ ] UPDATE TIME_GOAL in database and redux store
-- [ ] DELETE_BOOK_GOAL in database and redux store
-- [ ] DELETE_TIME_GOAL in database and redux store
-- [ ] set up route to '/goals/1/edit' to edit goals
+- [ ] build GoalEditForm
+- [ ] UPDATE_OAL in database and redux store
+- [ ] DELETE_GOAL in database and redux store
+- [ ] set up route to '/goals/1/edit' to edit goal
