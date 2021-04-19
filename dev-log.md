@@ -53,7 +53,7 @@
 - [x] ADD_NOTES to database and redux store
 - [x] set up NoteEditForm Component
 - [x] set up route for '/books/1/notes/1/edit'
-- [ ] UPDATE_NOTE in database and redux store
+- [x] UPDATE_NOTE in database and redux store
 - [ ] DELETE_NOTE in database and redux store
 
 ## Goals
