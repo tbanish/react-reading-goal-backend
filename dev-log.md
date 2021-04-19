@@ -58,9 +58,9 @@
 
 ## Goals
 ### Sprint 9
-- [ ] generate migrations, models and controllers
+- [x] generate migrations, models and controllers
 - [ ] set up controller actions for goal
-- [ ] create seed data to test model associations
+- [x] create seed data to test model associations
 - [ ] generate serializers for goal
 
 ### Sprint 10 (READ, CREATE)
