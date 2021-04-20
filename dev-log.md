@@ -64,9 +64,9 @@
 - [x] generate serializer for goal
 
 ### Sprint 10 (READ, CREATE)
-- [ ] LOAD_GOAL on initial fetch request
-- [ ] build GoalContainer, Goal component
-- [ ] GoalContainer component should be rendered on home page '/'
+- [x] LOAD_GOAL on initial fetch request
+- [x] build GoalContainer, Goal component
+- [x] GoalContainer component should be rendered on home page '/'
 - [ ] build GoalNewForm
 - [ ] set up route to '/goals/new' to render new form for goal
 - [ ] ADD_GOAL to database and redux store
