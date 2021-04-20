@@ -26,8 +26,3 @@ mountainOneNoteOne = Note.create(title: "mountainOneNoteOne", content: notes, re
 meditationsOneNoteOne = Note.create(title: "meditationsOneNoteOne", content: notes, reading_session_id: meditationsOne.id)
 swanOneNoteOne = Note.create(title: "swanOneNoteOne", content: notes, reading_session_id: swanOne.id)
 bengOneNoteOne = Note.create(title: "bengOneNoteOne", content: notes, reading_session_id: beingOne.id)
-
-# GOAL
-goal = Goal.new(total: 30)
-goal.remaining = goal.total - Book.finished.count
-goal.save
