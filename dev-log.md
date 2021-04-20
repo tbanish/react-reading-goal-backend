@@ -67,12 +67,12 @@
 - [x] LOAD_GOAL on initial fetch request
 - [x] build GoalContainer, Goal component
 - [x] GoalContainer component should be rendered on home page '/'
-- [ ] build GoalNewForm
-- [ ] set up route to '/goals/new' to render new form for goal
+- [x] build GoalNewForm
+- [x] set up route to '/goals/new' to render new form for goal
 - [ ] ADD_GOAL to database and redux store
 
 ### Sprint 11 (UPDATE, DESTROY)
-- [ ] build GoalEditForm
+- [x] build GoalEditForm
 - [ ] UPDATE_OAL in database and redux store
 - [ ] DELETE_GOAL in database and redux store
-- [ ] set up route to '/goals/1/edit' to edit goal
+- [x] set up route to '/goals/1/edit' to edit goal
