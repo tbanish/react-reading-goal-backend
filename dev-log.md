@@ -69,7 +69,7 @@
 - [x] GoalContainer component should be rendered on home page '/'
 - [x] build GoalNewForm
 - [x] set up route to '/goals/new' to render new form for goal
-- [ ] ADD_GOAL to database and redux store
+- [x] ADD_GOAL to database and redux store
 
 ### Sprint 11 (UPDATE, DESTROY)
 - [x] build GoalEditForm
