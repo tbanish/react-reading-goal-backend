@@ -74,5 +74,5 @@
 ### Sprint 11 (UPDATE, DESTROY)
 - [x] build GoalEditForm
 - [x] UPDATE_GOAL in database and redux store
-- [ ] DELETE_GOAL in database and redux store
+- [x] DELETE_GOAL in database and redux store
 - [x] set up route to '/goals/1/edit' to edit goal
