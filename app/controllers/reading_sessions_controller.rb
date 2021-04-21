@@ -12,7 +12,7 @@ class ReadingSessionsController < ApplicationController
       notes.each{|note| Note.create(title: note[:title], content: note[:content], reading_session_id: reading_session.id)}
       render json: ReadingSessionsSerializer.new(reading_session)
     else
-      render json: {errors: reading_session.erros.full_messages}
+      render json: {errors: reading_session.errors.full_messages}
     end
   end
 
