@@ -1,7 +1,13 @@
 # Project Specs
-- [ ] 5 stateless components
-- [ ] 2 container components
-- [ ] 3 routes
+- [x] 5 stateless components
+- [x] 2 container components
+- [x] 3 routes
+
+- [x] The code is written in ES6 as much as possible
+- [x] create-react-app was used to create your React app
+- [x] react-router is being used with proper RESTful routing
+- [x] Redux and redux-thunk middleware are being used to modify state change and make use of async actions to send data and receive data from the server
+- [x] Use of Rails API backend to persist data for the application
 
 # User Story
 A user should be able to:
