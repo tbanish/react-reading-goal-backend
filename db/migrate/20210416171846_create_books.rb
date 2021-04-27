@@ -3,6 +3,8 @@ class CreateBooks < ActiveRecord::Migration[6.0]
     create_table :books do |t|
       t.string :title
       t.string :author
+      t.string :description
+      t.string :page_count
       t.boolean :finished, :default=>false
 
       t.timestamps
