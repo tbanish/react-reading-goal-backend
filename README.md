@@ -14,6 +14,6 @@ To install this application:
 - install `rails`
 - run the command `bundle install` to install dependencies
 - run the command `rails s -p 3001` to start the rails server
-- head to the [frontend](https://github.com/tbanish/react-reading-goal-fronted) repo and follow the install instructions
+- head to the [frontend](https://github.com/tbanish/react-reading-goal-frontend) repo and follow the install instructions
 
 This project is licensed under the terms of the MIT license.
