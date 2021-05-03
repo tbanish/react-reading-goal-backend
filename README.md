@@ -1,24 +1,19 @@
-# README
+# BookRemark
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application allows a user to:
 
-Things you may want to cover:
+- set a reading goal for the year
+- add books to their book list
+- create timed reading sessions to take notes
+- mark books as finished once completed
+- store finished books on their bookshelf
 
-* Ruby version
+To install this application:
 
-* System dependencies
+- clone this repo to the directory of your choosing
+- install `rails`
+- run the command `bundle install` to install dependencies
+- run the command `rails s -p 3001` to start the rails server
+- head to the [frontend](https://github.com/tbanish/react-reading-goal-fronted) repo and follow the install instructions
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This project is licensed under the terms of the MIT license.
